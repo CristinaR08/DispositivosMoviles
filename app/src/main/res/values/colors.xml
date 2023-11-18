@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fuccia">#E61F7A</color>
+    <color name="morado">#A52EF4</color>
+    <color name="moradoOscuro">#7F03D8</color>
+    <color name="background">#BFBFBF</color>
+    <color name="pinky">#D7ED8AFF</color>
+    <color name="rosa">#FFB0FE</color>
+    <color name="azul">#7E71F6</color>
+    <color name="lila">#CEABFF</color>
+    <color name="pastel">#FFABF7</color>
+    <color name="gris">#D6D6D6</color>
+
+</resources>

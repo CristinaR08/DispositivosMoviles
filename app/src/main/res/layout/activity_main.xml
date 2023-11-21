@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <TextView
         android:id="@+id/textView4"
@@ -69,7 +69,7 @@
         android:layout_width="129dp"
         android:layout_height="51dp"
         android:layout_marginBottom="50dp"
-        android:text="Ingresar"
+        android:text="Regresar"
         app:iconPadding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

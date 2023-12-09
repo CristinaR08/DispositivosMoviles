@@ -3,7 +3,6 @@ package com.rivera.dispositivostest.logic.login
 import com.rivera.dispositivostest.data.entities.Users
 import com.rivera.dispositivostest.data.repository.DBRepository
 import com.rivera.dispositivostest.data.repository.UserRepository
-import com.rivera.dispositivostest.ui.LoginActivity
 
 class LoginUseCase(val connection: DBRepository) {
 

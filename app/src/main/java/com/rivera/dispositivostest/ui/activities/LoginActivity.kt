@@ -1,4 +1,4 @@
-package com.rivera.dispositivostest.ui
+package com.rivera.dispositivostest.ui.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

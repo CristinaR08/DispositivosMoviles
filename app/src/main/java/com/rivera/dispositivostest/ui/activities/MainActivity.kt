@@ -1,4 +1,4 @@
-package com.rivera.dispositivostest.ui
+package com.rivera.dispositivostest.ui.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
     fun initControls(){
         binding.button.setOnClickListener{
-            val intent = Intent(this,LoginActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
 
         }

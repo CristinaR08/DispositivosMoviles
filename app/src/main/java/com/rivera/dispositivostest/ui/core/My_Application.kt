@@ -9,8 +9,8 @@ class My_Application:Application() {
 
     override fun onCreate() {
         super.onCreate()
-        val c = DBConnection().getConnection(applicationContext)
-        LoginUseCase(con).insertUser()
+ //       val c = DBConnection().getConnection(applicationContext)
+ //       LoginUseCase(con).insertUser()
     }
 
     companion object{

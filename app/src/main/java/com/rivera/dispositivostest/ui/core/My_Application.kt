@@ -9,7 +9,7 @@ class My_Application:Application() {
 
     override fun onCreate() {
         super.onCreate()
- //       val c = DBConnection().getConnection(applicationContext)
+ //       con = DBConnection().getConnection(applicationContext)
  //       LoginUseCase(con).insertUser()
     }
 

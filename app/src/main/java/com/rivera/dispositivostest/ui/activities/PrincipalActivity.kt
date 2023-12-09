@@ -14,6 +14,7 @@ import com.rivera.dispositivostest.ui.fragments.ListFragment
 class PrincipalActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityPrincipalBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPrincipalBinding.inflate(layoutInflater)
@@ -21,16 +22,17 @@ class PrincipalActivity : AppCompatActivity() {
 
         val listFragment  =ListFragment()
         val favoritesFragment  =FavoritesFragment()
-        val transaction = supportFragmentManager.beginTransaction()
 
         binding.bottomNavigation.setOnItemSelectedListener { item ->
             when(item.itemId) {
-                R.id.item_1 -> {
+                R.id.it_home -> {
+                    val transaction = supportFragmentManager.beginTransaction()
                     transaction.replace(binding.frmContainer.id, listFragment)
                     transaction.commit()
                     true
                 }
-                R.id.item_2 -> {
+                R.id.it_fav -> {
+                    val transaction = supportFragmentManager.beginTransaction()
                     transaction.replace(binding.frmContainer.id, favoritesFragment)
                     transaction.commit()
                     true

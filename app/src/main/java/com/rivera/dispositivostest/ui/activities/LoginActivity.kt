@@ -17,16 +17,13 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-    }
-
-    override fun onStart() {
-        super.onStart()
         initControls()
-
     }
+
     fun initControls(){
         binding.btnLogin.setOnClickListener {
-            val check = LoginUseCase(My_Application.getConnectionDB()!!).checkUserandPassword(
+            val check = LoginUseCase(
+                My_Application.getConnectionDB()!!).checkUserandPassword(
                 binding.txtUsuario.text.toString(),
                 binding.txtContraseA.text.toString())
 
